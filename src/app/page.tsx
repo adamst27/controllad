@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-primary relative">
-        <div className="absolute inset-0 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]" />
+        <div className="absolute inset-0 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,primary_40%,#63e_100%)]" />
         <div className="z-10 w-3/4 h-[500px] items-center justify-center text-sm text-center gap-4 relative overflow-hidden flex flex-col">
           <div className="overflow-hidden h-11 w-full">
             <MotionDiv
